@@ -1,5 +1,6 @@
+
 #!/usr/bin/python3
-'''N-Queens Challenge'''
+'''N Queens Challenge'''
 
 import sys
 
@@ -34,7 +35,7 @@ if __name__ == '__main__':
             safe = True
             for cord in placed_queens:
                 col = cord[1]
-                if(col == c or col + (r-cord[0]) == c or
+                if (col == c or col + (r-cord[0]) == c or
                         col - (r-cord[0]) == c):
                     safe = False
                     break
