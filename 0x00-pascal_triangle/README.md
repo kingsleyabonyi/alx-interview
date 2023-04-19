@@ -1,1 +1,1 @@
-A repository containing series of DSA problems that software engineers faces in interviews
+# 0x00. Pascal's Triangle
